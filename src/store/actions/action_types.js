@@ -1,0 +1,2 @@
+export const FOOD_LIST_SUCCESS = 'FOOD_LIST_SUCCESS';
+export const FOOD_LIST_ERROR = 'FOOD_LIST_ERROR';
