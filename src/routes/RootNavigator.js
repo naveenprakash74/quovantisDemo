@@ -9,7 +9,10 @@ const Stack = createStackNavigator();
  */
 const RootNavigator = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="list" component={ApprovedFoodListScreen} />
     </Stack.Navigator>
